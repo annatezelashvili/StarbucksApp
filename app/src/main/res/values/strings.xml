@@ -1,0 +1,57 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="app_name">Starbucks App</string>
+    <string name="large_text">
+        "Starbucks was founded by Jerry Baldwin, Gordon Bowker, and Zev Siegel, opening its first store in 1971 across the street from the historic Pike Place Market in Seattle. The three Starbucks founders had two things in common; they were all coming from academia, and they all loved coffee and tea. They invested and borrowed some money to open the first store in Seattle and named it “Starbucks” after the first mate in Herman Melville’s classic novel Moby Dick.
+
+Alfred Peet, a coffee-roasting entrepreneur, was a major inspiration to the founders of Starbucks. Peet was a Dutch immigrant who had begun importing fine arabica coffees into the United States during the 1950s. In 1966 he opened a small store, Peet’s Coffee and Tea, in Berkeley, California, that specialized in importing first-rate coffees and teas. Peet’s success encouraged the Starbucks founders to base their business model on selling high-quality coffee beans and equipment, and Peet’s became the initial supplier of green coffee beans to Starbucks. The partners then purchased a used roaster from Holland, and Baldwin and Bowker experimented with Alfred Peet’s roasting techniques to create their own blends and flavours.
+
+By the early 1980s, Starbucks had opened four stores in Seattle that stood out from the competitors with their top-quality fresh-roasted coffees. In 1980 Siegel decided to pursue other interests and left the two remaining partners, with Baldwin assuming the role of company president.
+
+Facts Matter. Support the truth and unlock all of Britannica’s content.
+Special 30% off Holiday Sale!
+The Howard Schultz Era
+In 1981 Howard Schultz, a sales representative for Hammarplast, a Swedish company that made kitchen equipment and housewares from which Starbucks bought drip-coffee makers, noticed how large the company’s orders were, which prompted him to pay it a visit. Schultz was so impressed that he decided to pursue a career at Starbucks, and he was hired as the head of marketing in 1982. Schultz noticed that first-time customers sometimes felt uneasy in the stores because of their lack of knowledge about fine coffees, so he worked with store employees on developing customer-friendly sales skills and produced brochures that made it easy for customers to learn about the company’s products.
+
+Schultz’s biggest idea for the future of Starbucks came during the spring of 1983 when the company sent him to Milan to attend an international housewares show. While in Italy, he was impressed with the country’s cafés, and he thought of doing something similar in Starbucks. However, Baldwin and Bowker were not enthusiastic about Schultz’s idea, as they did not want Starbucks to deviate much from its traditional model of business. They wanted Starbucks to remain strictly a coffee and equipment seller and not turn into a café that served espressos and capuccinos.
+
+Seeing that he would not be able to persuade Baldwin and Bowker to embrace the café idea, Schultz left Starbucks in 1985 and started his own coffee chain called Il Giornale, which was an immediate success, quickly expanding into multiple cities.
+
+In March 1987 Baldwin and Bowker decided to sell Starbucks, and Schultz was quick to purchase the company. He combined all his operations under the Starbucks brand and committed to the café concept for the business, with additional sales of beans, equipment, and other items in Starbucks stores. The company entered into a meteoric period of expansion that continued after the company went public in 1992. Starbucks soon became the largest coffee-house chain in the world. By the early 21st century, Starbucks had a presence in dozens of countries around the globe and operated over 20,000 stores.
+
+Peter Bondarenko
+LEARN MORE in these related Britannica articles:
+Howard Schultz, 2010.
+Howard Schultz
+…as CEO (1987–2000, 2008–17) of Starbucks, a coffeehouse chain that he helped transform into a worldwide presence.…
+Kent, Rockwell: illustration of Moby Dick
+Moby Dick
+Moby Dick, novel by Herman Melville, published in London in October 1851 as The Whale and a month later in New York City as Moby-Dick; or, The Whale. It is dedicated to Nathaniel Hawthorne. Moby Dick is generally regarded as Melville’s magnum opus and one of the greatest American novels.…
+newsletter icon
+HISTORY AT YOUR FINGERTIPS
+Sign up here to see what happened On This Day, every day in your inbox!
+Email address
+By signing up, you agree to our Privacy Notice.
+
+"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

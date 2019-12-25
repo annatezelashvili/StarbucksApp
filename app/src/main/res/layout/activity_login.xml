@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+ <RelativeLayout
+     android:id="@+id/header"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:gravity="center">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/history" />
+ </RelativeLayout>
+
+
+
+ <RelativeLayout
+     android:id="@+id/footer"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:layout_alignParentBottom="true"
+     android:gravity="center">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/history" />
+ </RelativeLayout>
+
+
+ <RelativeLayout
+     android:id="@+id/content"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_above="@id/footer"
+     android:layout_below="@id/header"
+     android:gravity="top|center"
+     android:layout_marginTop="40dp">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="STARBUCKS"
+      android:textColor="@color/starbucksClassic"
+      android:textSize="50dp"
+      android:fontFamily="sans-serif-black"
+      android:textStyle="bold"
+      android:id="@+id/starbucks"
+      android:layout_centerHorizontal="true"
+      />
+
+  <EditText
+      android:id="@+id/username"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/starbucks"
+      android:layout_marginTop="78dp"
+      android:hint="Enter Username,Email or Phone Number"
+      android:textAlignment="center"></EditText>
+
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/username"
+      android:layout_marginTop="29dp"
+      android:hint="Enter Password"
+      android:textAlignment="center"></EditText>
+
+  <Button
+      android:id="@+id/login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/password"
+      android:layout_marginBottom="-146dp"
+      android:layout_centerHorizontal="true"
+      android:background="#f5f7fa"
+      android:text="Log In"
+      android:textColor="@color/starbucksClassic"
+      ></Button>
+
+  <TextView
+      android:id="@+id/forRegistration"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/login"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="-91dp"
+      android:fontFamily="sans-serif-black"
+      android:text="Or Create a New Account"
+      android:textColor="@color/starbucksClassic"
+      android:textAlignment="center"
+      android:textSize="20dp"
+      android:textStyle="bold"></TextView>
+
+  <Button
+      android:id="@+id/register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/forRegistration"
+      android:layout_marginBottom="-88dp"
+      android:background="#f5f7fa"
+      android:text="Join Now"
+      android:textColor="@color/starbucksClassic"
+      android:layout_centerHorizontal="true"></Button>
+
+
+ </RelativeLayout>
+</RelativeLayout>

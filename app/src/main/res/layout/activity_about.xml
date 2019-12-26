@@ -11,7 +11,8 @@
             android:id="@+id/photo_id"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:src="@drawable/about"></ImageView>
+            android:src="@drawable/about"
+            android:layout_margin="30dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -20,7 +21,9 @@
             android:text="About Starbucks"
             android:textColor="@color/white"
             android:layout_centerHorizontal="true"
-            android:textSize="30dp"></TextView>
+            android:textSize="30dp"
+            android:id="@+id/about_star"/>
+
 
         <TextView
         android:layout_width="match_parent"
@@ -35,20 +38,21 @@
         android:layout_below="@+id/photo_id"
         android:id="@+id/text_id">
         </TextView>
+        <fragment
+            android:id="@+id/ordercontactFragment"
+            android:name="ge.edu.tsu.starbucksapp.OrderAboutFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text_id" >
+        </fragment>
+
         <ImageView
             android:id="@+id/photo_id2"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:src="@drawable/about"
-            android:layout_below="@+id/text_id"></ImageView>
-        <fragment
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@id/navigate_fragment"
-            android:layout_margin="20dp">
-        </fragment>
+            android:layout_below="@+id/ordercontactFragment" />
+
     </RelativeLayout>
 
 </ScrollView>
-
-<!--</LinearLayout>-->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/success">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome,sdfsdf!"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="40dp"
+    android:textColor="@color/starbucksClassic"
+    android:fontFamily="monospace"
+    android:id="@+id/welcome">
+</TextView>
+
+    <fragment
+        android:id="@+id/ordercontactFragment"
+        android:name="ge.edu.tsu.starbucksapp.OrderAboutFragment"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_below="@+id/welcome"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="532dp" />
+
+
+</RelativeLayout>

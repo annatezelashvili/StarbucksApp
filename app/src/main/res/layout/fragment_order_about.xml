@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:onClick="order_coffee"
+        android:text="Order Coffee"
+        android:textColor="@color/starbucksClassic"
+        android:background="@color/white"
+        android:id="@+id/order_coffee"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:onClick="contact_us"
+        android:layout_marginLeft="20dp"
+        android:text="Contact us"
+        android:id="@+id/contact_us"
+        android:textColor="@color/starbucksClassic"
+        android:background="@color/white" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:onClick="log_out"
+        android:id="@+id/log_out"
+        android:layout_marginLeft="20dp"
+        android:text="Log Out"
+        android:textColor="@color/red"
+        android:background="@color/white" />
+
+
+</LinearLayout>

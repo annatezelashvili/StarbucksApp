@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -49,7 +48,7 @@
       android:layout_height="wrap_content"
       android:text="STARBUCKS"
       android:textColor="@color/starbucksClassic"
-      android:textSize="50dp"
+      android:textSize="50sp"
       android:fontFamily="sans-serif-black"
       android:textStyle="bold"
       android:id="@+id/starbucks"
@@ -63,7 +62,8 @@
       android:layout_below="@+id/starbucks"
       android:layout_marginTop="78dp"
       android:hint="Enter Username,Email or Phone Number"
-      android:textAlignment="center"></EditText>
+      android:textAlignment="center"
+      android:inputType="text" />
 
   <EditText
       android:id="@+id/password"
@@ -72,7 +72,8 @@
       android:layout_below="@+id/username"
       android:layout_marginTop="29dp"
       android:hint="Enter Password"
-      android:textAlignment="center"></EditText>
+      android:inputType="textPassword"
+      android:textAlignment="center" />
 
   <Button
       android:id="@+id/login"
@@ -84,7 +85,7 @@
       android:background="#f5f7fa"
       android:text="Log In"
       android:textColor="@color/starbucksClassic"
-      ></Button>
+      android:onClick="logIn" />
 
   <TextView
       android:id="@+id/forRegistration"
@@ -98,7 +99,7 @@
       android:textColor="@color/starbucksClassic"
       android:textAlignment="center"
       android:textSize="20dp"
-      android:textStyle="bold"></TextView>
+      android:textStyle="bold" />
 
   <Button
       android:id="@+id/register"
@@ -109,7 +110,8 @@
       android:background="#f5f7fa"
       android:text="Join Now"
       android:textColor="@color/starbucksClassic"
-      android:layout_centerHorizontal="true"></Button>
+      android:layout_centerHorizontal="true"
+      android:onClick="signUp" />
 
 
  </RelativeLayout>

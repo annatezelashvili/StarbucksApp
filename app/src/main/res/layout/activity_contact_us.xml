@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/starbucksClassic"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/about"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" contact@starbucks.com \n  (+67) 86 23 42 34 \n "
+        android:textColor="@color/white"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook"
+            android:layout_weight="0.3"
+            android:tag="https://www.facebook.com/starbucks"
+            android:onClick="openBrowser"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/instagram"
+            android:layout_weight="0.3"
+            android:tag="https://www.instagram.com/starbucks"
+            android:onClick="openBrowser"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pinterest"
+            android:layout_weight="0.3"
+            android:tag="https://www.pinterest.com/starbucks"
+            android:onClick="openBrowser"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+<!--    public void openBrowser(View view){-->
+
+<!--    //Get url from tag-->
+<!--    String url = (String)view.getTag();-->
+
+<!--    Intent intent = new Intent();-->
+<!--    intent.setAction(Intent.ACTION_VIEW);-->
+<!--    intent.addCategory(Intent.CATEGORY_BROWSABLE);-->
+
+<!--    //pass the url to intent data-->
+<!--    intent.setData(Uri.parse(url));-->
+
+<!--    startActivity(intent);-->
+<!--    }-->

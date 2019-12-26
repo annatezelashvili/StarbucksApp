@@ -8,19 +8,19 @@
         android:layout_margin="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact Us"
+        android:text="contact us"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="40dp"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="sans-serif-smallcaps"
         android:gravity="center">
     </TextView>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        android:src="@drawable/about"
-        ></ImageView>
+        android:src="@drawable/about" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,8 +30,7 @@
         android:textSize="20dp"
         android:gravity="center"
         android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        ></TextView>
+        android:textStyle="bold" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -65,18 +64,3 @@
             />
     </LinearLayout>
 </LinearLayout>
-
-<!--    public void openBrowser(View view){-->
-
-<!--    //Get url from tag-->
-<!--    String url = (String)view.getTag();-->
-
-<!--    Intent intent = new Intent();-->
-<!--    intent.setAction(Intent.ACTION_VIEW);-->
-<!--    intent.addCategory(Intent.CATEGORY_BROWSABLE);-->
-
-<!--    //pass the url to intent data-->
-<!--    intent.setData(Uri.parse(url));-->
-
-<!--    startActivity(intent);-->
-<!--    }-->

@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SignUpActivity extends AppCompatActivity {
+public class ActivitySignUp extends AppCompatActivity {
     private Button mCreateAccount;
     private EditText mFullName;
     private EditText mEmailOrPhone;
@@ -32,13 +32,13 @@ public class SignUpActivity extends AppCompatActivity {
                         || mPass.getText().toString().equals("")
                 ){
 
-                    Toast.makeText(SignUpActivity.this, "All fields are required. /n Please fill them! ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ActivitySignUp.this, "All fields are required. /n Please fill them! ", Toast.LENGTH_SHORT).show();
                 }
                 else if (mPass.getText().toString().length()<8 || mPass.getText().toString().length()>12 ){
-                    Toast.makeText(SignUpActivity.this, " Password must be from 8 to 12 symbols", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ActivitySignUp.this, " Password must be from 8 to 12 symbols", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Intent intent=new Intent(SignUpActivity.this,ActivitySuccess.class);
+                    Intent intent=new Intent(ActivitySignUp.this,ActivitySuccess.class);
                     intent.putExtra("newUserName",mFullName.getText().toString());
                    startActivity(intent);
 

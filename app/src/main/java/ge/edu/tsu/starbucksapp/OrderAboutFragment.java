@@ -15,33 +15,60 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import javax.security.auth.callback.Callback;
 
-public class OrderAboutFragment extends Fragment implements View.OnClickListener {
+public class OrderAboutFragment extends Fragment  {
     private View mView;
+    private Button mLogOut;
+    private Button mContactUs;
+    private Button mOrderCoffee;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.fragment_order_about, container, false);
-
-return mView;
+        mLogOut=mView.findViewById(R.id.log_out);
+        mContactUs=mView.findViewById(R.id.contact_us);
+        mOrderCoffee=mView.findViewById(R.id.order_coffee);
+        mLogOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mView.getContext(),ActivityLogin.class);
+                startActivity(intent);
+            }
+        });
+        mContactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mView.getContext(),ActivityContactUs.class);
+                startActivity(intent);
+            }
+        });
+        mOrderCoffee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mView.getContext(),ActivityOrderCoffee.class);
+                startActivity(intent);
+            }
+        });
+        return mView;
     }
 
-    @Override
-    public void onClick(View v){
-        switch (v.getId()){
-            case R.id.log_out:
-                Intent intent_logout=new Intent(mView.getContext(),LoginActivity.class);
-                startActivity(intent_logout);
-                break;
-            case R.id.contact_us:
-                Intent intent_contact=new Intent(mView.getContext(),ActivityContactUs.class);
-                startActivity(intent_contact);
-                break;
-            case R.id.order_coffee:
-                Intent intent_order=new Intent(mView.getContext(),ActivityOrderCoffee.class);
-                startActivity(intent_order);
-                break;
-        }}
+    //    @Override
+//    public void onClick(View v){
+//        switch (v.getId()){
+//            case R.id.log_out:
+//                Intent intent_logout=new Intent(mView.getContext(),ActivityLogin.class);
+//                startActivity(intent_logout);
+//                break;
+//            case R.id.contact_us:
+//                Intent intent_contact=new Intent(mView.getContext(),ActivityContactUs.class);
+//                startActivity(intent_contact);
+//                break;
+//            case R.id.order_coffee:
+//                Intent intent_order=new Intent(mView.getContext(),ActivityOrderCoffee.class);
+//                startActivity(intent_order);
+//                break;
+//        }}
+
 }
 

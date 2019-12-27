@@ -17,7 +17,7 @@ public class ActivitySuccess extends AppCompatActivity {
         Bundle bundle = newIntent.getExtras();
         if(bundle!= null)
         {
-          userName.setText(String.format("Welcome,%s !", bundle.get("newUserName")));
+          userName.setText(String.format("Welcome,%s!", bundle.get("newUserName")));
         }
     }
 

@@ -39,6 +39,9 @@
         <activity
             android:name=".ActivityOrderCoffee"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityOrderedCoffee"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
